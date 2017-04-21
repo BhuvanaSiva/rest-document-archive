@@ -7,7 +7,7 @@ Build and run
 -------------
 
 ```bash
-git clone https://github.com/murygin/rest-document-archive.git
+git clone https://github.com/BhuvanaSiva/rest-document-archive.git
 cd rest-document-archive
 mvn package
 java -jar target/rest-document-archive-0.1.0.jar
