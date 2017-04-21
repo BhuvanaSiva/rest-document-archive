@@ -43,17 +43,17 @@ Documentation
 -------------
 
 * REST Service Controller
-  * [ArchiveController.java](https://github.com/BhuvanaSiva/rest-document-archive/src/main/java/com/document/archive/rest/ArchiveController.java)
+  * [ArchiveController.java](https://github.com/BhuvanaSiva/rest-document-archive/blob/master/src/main/java/com/document/archive/rest/ArchiveController.java)
    
    Executes incoming request and defines URL to service method mappings. All remote call are delegated to the archive service.
 * Service
-  * Interface: [IArchiveService.java](https://github.com/BhuvanaSiva/rest-document-archive/src/main/java/com/document/archive]/service/IArchiveService.java)
-  * Implementation: [ArchiveService.java](https://github.com/BhuvanaSiva/rest-document-archive/blob/master/src/main/java/com/document/archive/client/ArchiveServiceClient.java)
+  * Interface: [IArchiveService.java](https://github.com/BhuvanaSiva/rest-document-archive/blob/master/src/main/java/com/document/archive/service/IArchiveService.java)
+  * Implementation: [ArchiveService.java](https://github.com/BhuvanaSiva/rest-document-archive/blob/master/src/main/java/com/document/archive/service/ArchiveService.java)
    
    A service to save, find and get documents from an archive. 
 * Data access object
-  * Interface: [IDocumentDao.java](https://github.com/BhuvanaSiva/rest-document-archive/src/main/java/com/document/archive/dao/IDocumentDao.java)
-  * Implementation: [FileSystemDocumentDao.java](https://github.com/BhuvanaSiva/rest-document-archive/src/main/java/com/document/archive/dao/FileSystemDocumentDao.java)  
+  * Interface: [IDocumentDao.java](https://github.com/BhuvanaSiva/rest-document-archive/blob/master/src/main/java/com/document/archive/dao/IDocumentDao.java)
+  * Implementation: [FileSystemDocumentDao.java](https://github.com/BhuvanaSiva/rest-document-archive/blob/master/src/main/java/com/document/archive/dao/FileSystemDocumentDao.java)  
    
    Data access object to insert, find and load documents. FileSystemDocumentDao saves documents in the file system. No database in involved. For each document a folder is created. The folder contains the document and a properties files with the meta data of the document. Each document in the archive has a Universally Unique Identifier (UUID). The name of the documents folder is the UUID of the document.
 
