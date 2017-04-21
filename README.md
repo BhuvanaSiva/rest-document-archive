@@ -4,6 +4,7 @@ REST Document Archive
 A simple document archive with REST interface. 
 Uploads File and stores the metadata related to the file in a seperate folder based on the UUID created.
 Polling is enabled and for any new file uploaded , email is sent to testforgitapps@gmail.com. The password for this email account is set as property in the application.properties
+
 Build and run
 -------------
 
