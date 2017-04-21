@@ -60,7 +60,7 @@ Documentation
 * Client
    
    [ArchiveServiceClient.java](
-   https://github.com/BhuvanaSiva/rest-document-archive/src/main/java/com/document/archive/client/ArchiveServiceClient.java)
+   https://github.com/BhuvanaSiva/rest-document-archive/blob/master/src/main/java/com/document/archive/client/ArchiveServiceClient.java)
    A client for the document archive which is using the REST service.
 
 * Web client
