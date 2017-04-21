@@ -1,8 +1,9 @@
 REST Document Archive
 =====================
 
-A simple document archive with REST interface. You can read more about this project in my blog post: [A REST web service, file uploads & Spring Boot](https://murygin.wordpress.com/2014/10/13/rest-web-service-file-uploads-spring-boot/).
-
+A simple document archive with REST interface. 
+Uploads File and stores the metadata related to the file in a seperate folder based on the UUID created.
+Polling is enabled and for any new file uploaded , email is sent to testforgitapps@gmail.com. The password for this email account is set as property in the application.properties
 Build and run
 -------------
 
